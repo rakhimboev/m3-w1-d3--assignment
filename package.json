@@ -1,0 +1,27 @@
+{
+  "name": "lab",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/rakhimboev/m3-w1-d3--assignment#readme",
+  "bugs": {
+    "url": "https://github.com/rakhimboev/m3-w1-d3--assignment/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rakhimboev/m3-w1-d3--assignment.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node start",
+    "watch": "nodemon ./start.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "pug": "^3.0.3"
+  }
+}
