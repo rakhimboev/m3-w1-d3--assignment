@@ -1,0 +1,104 @@
+body {
+  padding: 40px 10px;
+  background-color: #eee;
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+/* Heading style */
+.listing-reg h1 {
+  text-align: center;
+  margin: 0 0 2rem;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+/* Registration form styles */
+.form-registration {
+  max-width: 400px;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.form-registration input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form-registration .btn {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.form-registration .btn:hover {
+  background-color: #0056b3;
+}
+
+/* Error styles */
+.my-errors {
+  margin: 20px auto;
+  padding: 0;
+  list-style: none;
+  color: #333;
+  font-size: 1.2rem;
+  display: table;
+}
+
+.my-errors li {
+  margin: 0 0 1rem;
+}
+
+.my-errors li:before {
+  content: "! Error : ";
+  color: #f00;
+  font-weight: bold;
+}
+
+/* Listing table styles */
+.listing-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.listing-table th,
+.listing-table td {
+  padding: 10px;
+  border-bottom: 1px solid #666;
+  text-align: left;
+}
+
+.listing-table th {
+  background-color: #000;
+  color: #fff;
+  font-weight: bold;
+}
+
+.listing-table td:first-child,
+.listing-table th:first-child {
+  border-right: 1px solid #666;
+}
+
+@media screen and (max-width: 768px) {
+  .form-registration {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .listing-table th,
+  .listing-table td {
+    font-size: 0.9rem;
+  }
+}

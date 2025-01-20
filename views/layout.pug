@@ -1,7 +1,10 @@
 doctype html
 html
     head
-        title= title
+        title= `${title}`
+        link(rel='stylesheet' href='/css/bootstrap.min.css')
+        link(rel='stylesheet' href='/css/styles.css')
     body
-        h1 My App
-        block content
+        div.container.listing-reg
+            h1 My amazink App
+            block content
